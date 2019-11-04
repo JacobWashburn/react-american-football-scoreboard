@@ -9,7 +9,7 @@ function App() {
     let [lionsPoints, addLionPoints] = useState(0);
     let [tigersPoints, addTigerPoints] = useState(0);
     let touchdown = 7;
-    let fieldGoal = 30;
+    let fieldGoal = 3;
 
     function addPoints(teamPoints, addTeamPoints, type) {
         return addTeamPoints(teamPoints + type)
